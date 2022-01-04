@@ -17,5 +17,3 @@ function diceRoll() {
     document.querySelector("h1").innerHTML = "🚩 It's a draw! 🚩";
   }
 }
-
-window.onload = diceRoll(1, 6);
