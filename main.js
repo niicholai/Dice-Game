@@ -6,7 +6,7 @@ function diceRoll() {
 
   var roll2 = Math.floor(Math.random() * 6) + 1; //1-6
   var image2 = document.querySelectorAll("img")[1];
-  image2.setAttribute("src", "images/dice" + roll2 + ".png"); //change player two dice image to 1-6
+  image2.setAttribute("src", "images/dice" + roll2 + ".png");
 
   //winner results text
   if (roll1 > roll2) {
