@@ -4,18 +4,18 @@
     <meta charset="utf-8" />
     <title>Dice Game Project</title>
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="styles/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Charmonman&family=Pushster&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Charmonman&family=Pushster&display=swap"
       rel="stylesheet"
     />
   </head>
 
   <body>
     <div class="container">
-      <h1>Refresh Me</h1>
+      <h1>Good luck!</h1>
 
       <div class="dice">
         <p>Player 1</p>
@@ -26,9 +26,17 @@
         <p>Player 2</p>
         <img id="img2" src="images/dice6.png" />
       </div>
+
+      <br />
+
+      <div class="button">
+        <button type="button" class="playersRoll" onclick="diceRoll(1, 6)">
+          Go Lady Luck!
+        </button>
+      </div>
     </div>
 
-    <script src="main.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 
   <footer>🎲 Derek Folds 🎲</footer>
