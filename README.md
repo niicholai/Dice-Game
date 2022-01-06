@@ -5,7 +5,7 @@ which now stands to be continued to create an actual game which will serve to sh
 
 
 ---
-Changelog:
+**Changelog:**
 
 V2.
 - No more refreshing to roll, added a button.
