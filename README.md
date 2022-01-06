@@ -7,10 +7,10 @@ which now stands to be continued to create an actual game which will serve to sh
 ---
 **Changelog:**
 
-V2.
+**V2.**
 - No more refreshing to roll, added a button.
 - Replaced unattractive font flags with flag icons.
 - Made color changes to be more aesthetically pleasing.
 
-V1.
+**V1.**
 - Created to work on DOM manipulation with JavaScript.
