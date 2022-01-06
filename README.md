@@ -13,4 +13,4 @@ V2.
 - Made color changes to be more aesthetically pleasing.
 
 V1.
--Created to work on DOM manipulation with JavaScript.
+- Created to work on DOM manipulation with JavaScript.
