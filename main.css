@@ -9,7 +9,8 @@ main {
 }
 
 body {
-  background-color: #afc2cb;
+  background: linear-gradient(rgba(5, 22, 34, 0.9), rgba(5, 22, 34, 0.9)),
+    url("../images/staryNight.jpg");
   display: flex;
   flex-direction: column;
 }
@@ -19,18 +20,17 @@ h1 {
   font-family: "Pushster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #9d9afc;
+  color: #deb992;
 }
 
 p {
   text-shadow: 1.5px 1px 2px #232931;
   font-size: 2.5rem;
-  color: #9d9afc;
+  color: #deb992;
   font-family: "Permanent Marker", cursive;
 }
 
 footer {
-  margin-top: 5%;
   text-shadow: 1px 0 #232931;
   font-size: 1.5rem;
   color: #fb9e9a;
@@ -53,7 +53,7 @@ footer {
   width: 50%;
   margin: auto;
   text-align: center;
-  background-color: #d18380;
+  background: linear-gradient(rgb(133, 51, 48, 0.4), rgb(133, 51, 48, 0.4));
 }
 
 .dice {
@@ -69,7 +69,7 @@ footer {
 }
 
 .playersRoll {
-  background-color: #9d9afc;
+  background: linear-gradient(rgb(21, 14, 248, 0.2), rgb(21, 14, 248, 0.2));
   font-size: 20px;
   color: #f2eab1;
   border: 3px solid #f9cdad;
