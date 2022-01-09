@@ -7,6 +7,9 @@ which now stands to be continued to create an actual game which will serve to sh
 ---
 **Changelog:**
 
+**V3.**
+- Made changes to the coloring of the website for better design, to be easier on the eyes, and to better conform to web accessibility standards.
+
 **V2.**
 - No more refreshing to roll, added a button.
 - Replaced unattractive font flags with flag icons.
