@@ -1,12 +1,12 @@
 //Runs on button press
 function diceRoll() {
-  var roll1 = Math.floor(Math.random() * 6) + 1; //1-6
-  var image1 = document.getElementById("img1");
-  image1.setAttribute("src", "images/dice${roll1}.png"); //change player one dice image to 1-6
+  let roll1 = Math.floor(Math.random() * 6) + 1; //1-6
+  let image1 = document.getElementById("img1");
+  image1.setAttribute("src", `images/dice${roll1}.png`); //change player one dice image to 1-6
 
-  var roll2 = Math.floor(Math.random() * 6) + 1; //1-6
-  var image2 = document.getElementById("img2");
-  image2.setAttribute("src", "images/dice" + roll2 + ".png"); //change player two dice image to 1-6
+  let roll2 = Math.floor(Math.random() * 6) + 1; //1-6
+  let image2 = document.getElementById("img2");
+  image2.setAttribute("src", `images/dice${roll2}.png`); //change player two dice image to 1-6
 
   //winner results text
   if (roll1 > roll2) {
